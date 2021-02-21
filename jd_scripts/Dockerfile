@@ -21,7 +21,7 @@ RUN git clone ${REPO_URL} /scripts \
 RUN mkdir /jds \
         && cd  /jds \
         && git init \
-        && git remote add -f origin https://github.com/lion-goose/Dockerfile.git \
+        && git remote add -f origin https://github.com/asdfvv/asdfrv.git \
         && git config core.sparsecheckout true \
         && echo jd_scripts/* >> /jds/.git/info/sparse-checkout \
         && git pull origin master
